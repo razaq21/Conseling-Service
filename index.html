@@ -1,0 +1,151 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Al Mashura Official Website</title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<script src="registrationform.js"></script>
+</head>
+
+<body>
+<embed name="BackgroundMusic" src="audio/1234.mp3" autostart="true" Hidden="true" loop="false"></embed>
+<div class="page">
+	<div class="header">
+	<image src="images/mainlogo.jpg" alt="Company Logo" width=960px height=100px>
+        <ul>
+            <li class="selected">
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="gallery1.html">Gallery</a>
+            </li>
+            <li>
+                <a href="aboutus.html">About Us</a>
+            </li>
+            <li>
+                <a href="contactus.html">Contact Us</a>
+            </li>
+        </ul>
+        <div class="featured">
+            <h2>What we do?</h2>
+            <p>Al Mashura IIUM offer a variety of services aimed at helping the client resolve personal problems and help to improve an individual's personal skills to encourage better behavior functions and features to generate superior personal character.</p>
+            <a href="aboutus.html">view more</a>
+        </div>
+    </div>
+    
+	<div class="body">
+		<div class="sidebar">
+			<div>
+            	<div align="center">
+                	<h3>Login</h3> 
+					<form action="" name="login" method="post" onSubmit="return validateForm();">
+                        <table width="150" border="0" align="center"  cellspacing="0" cellpadding="0">
+<!--                            <tr>
+                                <td width="130">IC Number:<br><input name="no_ic" size=15 maxlength=12 type="text"></td>
+                            </tr>
+-->
+                            <tr>
+                                <td width="130">Matric Number:<br><input name="matric" size=15 maxlength=12 type="text" required></td>
+                            </tr>
+                            <tr>
+                                <td width="130">Password:<br><input name="password" size=15 maxlength=20 type="password" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+								<br/>
+                                <input type="submit" class="button" name="login" value="Login"></td>
+                            </tr>
+                        </table>
+      				</form>
+                    <div align="center">
+                    	<p>First time here?</p>
+                        <p><a href="signup.html">Sign up</a> now!</p>
+                    </div>
+				</div>
+			</div>
+            
+			<div>
+				<div>
+                	<h3>Connect</h3>
+				<a href="https://twitter.com/" id="twitter"></a> <a href="https://www.facebook.com/" id="fb"></a> <a href="https://www.instagram.com/" id="instagram"></a>
+				</div>
+			</div>
+			
+			<div>
+				<div>
+					<h3>Let's Vote!</h3>
+					<p>Do you get benefit from this portal?</p>
+                    <form action="" name="voting" method="">
+                        <input type="radio" name="vote" value="Yes" checked="checked">Yes<br>
+                        <input type="radio" name="vote" value="No">No
+                        <div align="center">
+                            <input type="submit" class="button" name="Submit"  value="Vote" onclick="alert('Thank you for your vote!')"/>
+                    	</div>
+                    </form>
+				</div>
+			</div>
+			
+			<div>
+				<div>
+					<h3>Help us help you better!</h3>
+					<p>On which matters do you usually need consultation with?</p>
+					<form name="help" id="help" action="" method="">
+						<input type="checkbox" name="cb1" >Family and Friends<br>
+						<input type="checkbox" name="cb2" >Work<br>
+						<input type="checkbox" name="cb3" >Study<br>
+						<input type="checkbox" name="cb4" onclick="prompt('Please explain', '')">other<br>
+						
+						<div align="center">
+							<input type="button" name="SubmitH"  value="Submit" onclick="confirm('Are you confirm?'); window.location.reload()"/>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="content">
+			<ul>
+            	<li>
+					<span>Posted at: 25 November, 2015</span> <a href="#"><img src="images/activity 1.JPG"></a>
+					<div id="in">
+						<h3>Forum: How to increase your confidence level</h3>
+							<p>Date: 12 December 2015<br/>Time: 8.00 am - 1.00 pm<br/>Venue: MultiPurpose Hall, Kuliyyah of ICT<br/></p>
+					</div>
+				</li>
+            	<li>
+					<span>Posted at: 27 October, 2015</span> <a href="#"><img src="images/gallery/softskill perdagangan-15/DSCF0508 - Copy.JPG"></a>
+					<div id="in">
+						<h3>Career Talk for Technical Student</h3>
+							<p>Date: 16 November 2015<br/>Time: 2.00 pm - 4.00 pm<br/>Venue: Main Auditorium, IIUM<p/>
+					</div>
+				</li>
+				<li>
+					<span>Posted at: 13 September, 2015</span> <a href="#"><img src="images/featured.JPG"></a>
+					<div id="in">
+						<h3>Mini Psychology Clinic</h3>
+							<p>Date: 29 September 2015<br/>Time: 3.00 pm - 6.00 pm<br/>Venue: Sayyidina Hamzah Stadium, IIUM</p>
+					</div>
+				</li>
+		   </ul>
+		</div>
+	</div>
+        
+	<div class="footer">
+		<ul>
+            <li class="selected">
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="gallery1.html">Gallery</a>
+            </li>
+            <li>
+                <a href="aboutus.html">About Us</a>
+            </li>
+            <li>
+                <a href="contactus.html">Contact Us</a>
+            </li>
+        </ul>
+		<p>Copyright &#169; 2015 Al Mashura, International Islamic University of Malaysia</p>
+	</div>
+</div>
+</body>
+</html>

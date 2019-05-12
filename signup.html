@@ -1,0 +1,160 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign Up Student</title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<script src="registrationform.js"></script>
+</head>
+
+<body  onload="document.registration.fullname.focus();">
+	<div class="page">
+        <div class="header">
+		<image src="images/mainlogo.jpg" alt="Company Logo" width=960px height=100px>
+            <ul>
+                <li class="selected">
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="gallery1.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">About Us</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        
+		<div class="body">
+            <div class="sidebar">
+                <div>
+					<div align="center">
+						<h3>Login</h3> 
+						<form action="" name="login" method="post" onSubmit="return validateForm();">
+							<table width="150" border="0" align="center"  cellspacing="0" cellpadding="0">
+	<!--                            <tr>
+									<td width="130">IC Number:<br><input name="no_ic" size=15 maxlength=12 type="text"></td>
+								</tr>
+	-->
+								<tr>
+									<td width="130">Matric Number:<br><input name="matric" size=15 maxlength=12 type="text" required></td>
+								</tr>
+								<tr>
+									<td width="130">Password:<br><input name="password" size=15 maxlength=20 type="password" required></td>
+								</tr>
+								<tr>
+									<td colspan="2" align="center">
+									<br/>
+									<input type="submit" class="button" name="login" value="Login"></td>
+								</tr>
+							</table>
+						</form>
+						<div align="center">
+							<p>First time here?</p>
+							<p><a href="signup.html">Sign up</a> now!</p>
+						</div>
+					</div>
+				</div>
+                
+                <div>
+                    <div>
+                        <h3>Connect</h3>
+                    	<a href="https://twitter.com/" id="twitter"></a> <a href="https://www.facebook.com/" id="fb"></a> <a href="https://www.instagram.com/" id="instagram"></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <div>
+                        <h3>Let's Vote!</h3>
+                        <p>Do you get benefit from this portal?</p>
+                        <form action="" name="Voting" method="">
+                            <input type="radio" name="vote" value="Yes" checked>Yes<br>
+                            <input type="radio" name="vote" value="No">No
+                            <div align="center">
+                                <input type="submit" class="button" name="Submit"  value="Vote" onclick="alert('Thank you for your vote!')" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content">
+                <div align="center">
+                    <h2>Sign Up for Student</h2>
+                    <br>
+                    <form name="registration" onSubmit="return formValidation();">
+                        <table width="470" border="0" cellspacing"0" cellpadding="3">
+                            <tr>
+								<td width="200">Full Name:</td>
+								<td width="250"><input name="fullname" size="50" type="text" value="" /></td>
+                            </tr>
+    
+                            <tr>
+								<td width="250">Matric Number:</td>
+								<td width="250"><input name="matric" size="50" type="text" value="" /></td>
+                            </tr>
+                            
+                            <tr>
+								<td width="200">IC Number:</td>
+								<td width="250"><input name="no_ic" size="50" type="text" value="" /></td>
+                            </tr>
+                            
+                            <tr>
+								<td width="200">Password:</td>
+								<td width="250"><input type="password" name="pass" size="50" value="" /></td>
+                            </tr>
+                            
+                            <tr>
+								<td width="200">Phone Number:</td>
+								<td width="250"><input name="phone_num" size="50" type="text" value="" /></td>
+                            </tr>
+                            
+							<tr>
+								<td width="200">Email:</td>
+								<td width="250"><input type="email" name="email" size="50" value="" /></td>
+							</tr>
+							
+<!--                            <tr>
+								<td>Date of Birth:</td>
+								<td><input name="dob" type="date" /></td>
+                            </tr>
+-->                            
+                            <tr>
+								<td width="200">Gender:</td>
+								<td width="250"><input type="radio" name="gender" value="Male" checked />Male<br>
+									<input type="radio" name="gender" value="Female" />Female
+								</td>
+                            </tr>
+                            <td>&nbsp;</td>
+    
+                            <tr>
+                            <td colspan="2"><div align="center">
+                            <input type="reset" class="button" name="Reset" value="Reset" /> &nbsp; <input type="submit" class="button" name="submit"  value="Submit" /></div></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+		
+		<div class="footer">
+			<ul>
+                <li class="selected">
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="gallery1.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">About Us</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+			<p>Copyright &#169; 2015 Al Mashura, International Islamic University of Malaysia</p>
+		</div>
+	</div>
+</body>
+</html>

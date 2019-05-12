@@ -1,0 +1,95 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact Us</title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<script src="contactform.js"></script>
+</head>
+
+<body>
+<body  onload="document.contact_form.fullname.focus();">
+	<div class="page">
+        <div class="header">
+			<image src="images/mainlogo.jpg" alt="Company Logo" width=960px height=100px>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="gallery1.html">Gallery</a>
+					</li>
+					<li>
+						<a href="aboutus.html">About Us</a>
+					</li>
+					<li class="selected">
+						<a href="contactus.html">Contact Us</a>
+					</li>
+				</ul>
+		</div>
+		
+	    <div class="body">
+			<div class="content">					
+				<div class="section">
+					<form name="contact_form" method="post" onSubmit="return contactformValidation();">
+						<table width="370" height="250" border="0" align="center"  cellspacing="0" cellpadding="0"><tr>
+							<h4>Send us an email:</h4>
+							<tr>
+								<td width="200">Full Name:</td>
+								<td width="250"><input name="fname" size="40" type="text" value="" /></td>
+							</tr>
+    
+							<tr>
+								<td width="200">Email:</td>
+								<td width="250"><input type="email" name="email1" size="40" value="" /></td>
+							</tr>
+                          
+							<tr>
+								<td width="200">Subject:</td>
+								<td width="250"><input name="subject" size="40" type="text" value="" /></td>
+							</tr>
+					   
+							<tr>
+								<td width="200">Message:</td>
+								<td width="250"><input name="message" size="40"maxlength="500" type="text" value=""/></td>
+							</tr>
+   
+							<tr>
+								<td colspan="2"><div align="center">
+								<input type="reset" class="button" name="Reset" value="Reset" /> &nbsp; <input type="submit" class="button" name="submit"  value="Submit" />
+								</div></td>
+                            </tr>
+						</table>	
+					</form>
+				</div>
+				<div class="section2">
+					<h4>Find Us:</h4>
+					<iframe align="center" frameborder="6px solid black"  marginheight="0" marginwidth="0"width="370" height="215" 
+					src="https://maps.google.com/maps?hl=en&q=student learning enhancement unit,iium gombak malaysia&ie=UTF8&t=roadmap&z=17&iwloc=B&output=embed">
+					</iframe>
+					<h4>Address</h4>
+					<p>Student Learing Enhancement Unit <br> International Islamic University of Malaysia <br>
+					Jalan Gombak, 53100 <br>
+					Kuala Lumpur, Malaysia. </p>
+			    </div>									 
+			</div>
+		</div>	
+		<div class="footer">
+			<ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="gallery1.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">About Us</a>
+                </li>
+                <li class="selected">
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+			<p>Copyright &#169; 2015 Al Mashura, International Islamic University of Malaysia</p>
+		</div>
+	</div>
+</body>
+</html>
